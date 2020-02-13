@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Redash Flip Dashboards Extension",
+    "version": "0.0.1",
+    "description": "Flip between dashboards tabs list",
+    "icons": {
+        "128": "128.png"
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": "128.png"
+    },
+    "background": {
+        "scripts": [
+            "script.js"
+        ],
+        "persistent": false
+    }
+}
